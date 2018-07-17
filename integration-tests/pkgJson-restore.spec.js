@@ -1143,7 +1143,7 @@ describe('update config.xml to include the plugin that is in pkg.json', function
     *   When config has 0 plugins and is restored, the plugins will be restored with the
     *   pkg.json plugins and with the spec from pkg.json dependencies.
     */
-    it('Test#015 : update config.xml to include all plugins/variables from pkg.json', function () {
+    fit('Test#015 : update config.xml to include all plugins/variables from pkg.json', function () {
         var cwd = process.cwd();
         var configXmlPath = path.join(cwd, 'config.xml');
         var pkgJsonPath = path.join(cwd, 'package.json');

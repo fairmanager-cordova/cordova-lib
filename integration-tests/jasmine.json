@@ -1,13 +1,12 @@
 {
     "spec_dir": "integration-tests",
     "spec_files": [
-    	"**/*[sS]pec.js",
-    	"**/*[sS]pec.js"
+    	"pkgJson-restore.spec.js"
     ],
     "helpers": [
         "../spec/helpers.js",
         "../spec/helper.js"
     ],
-    "stopSpecOnExpectationFailure": false,
+    "stopSpecOnExpectationFailure": true,
     "random": false
 }
